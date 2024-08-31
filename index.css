@@ -1,0 +1,55 @@
+body {
+    margin: 0 50px;
+    height: 1000px;
+    background-color: #c0c4cc;
+}
+
+header {
+    background-color: white;
+    
+}
+
+header div {
+    display: inline-block;
+}
+
+header div a{
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header nav {
+    width:  calc(100% - 200px);
+    display: inline-block;
+    text-align: right;
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    padding: 50px;
+}
+
+header nav ul li a{
+        text-decoration: none;
+}
+
+main {
+    height: 25%;
+    background-color: white;
+}
+footer {
+    height: 25%;
+    background-color: white;
+}
