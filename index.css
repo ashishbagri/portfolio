@@ -5,10 +5,11 @@ body {
 header {
     overflow: hidden;
     background-color: rgb(51, 50, 50);
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     padding: 0 50px;
+    display: block;
 }
 
 header div {
@@ -25,6 +26,7 @@ header div {
     display: inline-block;
     text-decoration: none;
     margin: 0;
+    font-size: 25px;
 }
 
 header div a{
@@ -58,18 +60,18 @@ header nav ul li{
 header nav ul li a{
         text-decoration: none;
         color: white;
-        border: 1px solid white;
         padding: 15px;
         border-radius: 15px;
 }
 
-header nav ul li a :hover{
+header nav ul li a:hover{
     text-decoration: none;
     color: red;
 }
 main {
     height: 25%;
     background-color: white;
+    margin: 50px;
 }
 footer {
     height: 25%;
