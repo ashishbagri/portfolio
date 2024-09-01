@@ -1,16 +1,30 @@
 body {
-    margin: 0 50px;
-    height: 1000px;
-    background-color: #c0c4cc;
+    margin: 0;
 }
 
 header {
-    background-color: white;
-    
+    overflow: hidden;
+    background-color: rgb(51, 50, 50);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 50px;
 }
 
 header div {
     display: inline-block;
+    margin-left: 50px;
+}
+
+.brand {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
 }
 
 header div a{
@@ -22,15 +36,15 @@ header div a{
 }
 
 .profile {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 
 header nav {
-    width:  calc(100% - 200px);
+    width:  calc(100% - 350px);
     display: inline-block;
-    text-align: right;
+    text-align: left;
 }
 
 
@@ -38,13 +52,21 @@ header nav ul li{
     list-style: none;
     display: inline;
     text-decoration: none;
-    padding: 50px;
+    padding: 0 50px;
 }
 
 header nav ul li a{
         text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 15px;
+        border-radius: 15px;
 }
 
+header nav ul li a :hover{
+    text-decoration: none;
+    color: red;
+}
 main {
     height: 25%;
     background-color: white;
